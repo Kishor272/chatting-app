@@ -1,3 +1,3 @@
-[submodule "chatting-app"]
-	path = chatting-app
+[submodule "client"]
+	path = client
 	url = https://github.com/Kishor272/chatting-app.git
