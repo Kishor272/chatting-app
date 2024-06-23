@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: chatting-app-backend
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Add other environment variables here if needed
